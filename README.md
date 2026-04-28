@@ -1,43 +1,55 @@
-# 🚀 Laravel Business Management System
+# Laravel Business Management System
 
-A full-stack Laravel SaaS-style application for managing clients, invoices, and payments with REST APIs and Stripe integration.
+A recruiter-attractive Laravel SaaS-style project for managing clients, invoices, payments, and dashboard analytics.
 
----
+## Features
+- Client management CRUD
+- Invoice management
+- Invoice item calculations
+- Stripe payment checkout integration
+- MySQL database schema
+- REST API routes
+- Clean MVC architecture
 
-## 📌 Overview
+## Tech Stack
+- Laravel
+- PHP
+- MySQL
+- Stripe API
+- REST APIs
 
-This project demonstrates real-world backend development using Laravel. It includes client management, invoice generation, payment processing, and API-driven architecture.
+## Setup Commands
 
-Built to showcase skills in:
-- Laravel (MVC Architecture)
-- RESTful API development
-- Database design (MySQL)
-- Payment integration (Stripe)
-- Scalable backend systems
+```bash
+composer create-project laravel/laravel laravel-business-management-system
+cd laravel-business-management-system
+composer require stripe/stripe-php
+```
 
----
+Copy these files into your Laravel project.
 
-## ✨ Features
+## .env Example
 
-- 🔐 Authentication-ready structure  
-- 👥 Client management (CRUD operations)  
-- 💰 Invoice creation with itemized billing  
-- 📊 Automatic calculation of subtotal, tax, and total  
-- 💳 Stripe payment integration  
-- 🔗 RESTful APIs for frontend/backend communication  
-- ⚡ Optimized database queries and performance  
-- 🔒 Secure input validation and error handling  
+```env
+DB_DATABASE=business_management
+DB_USERNAME=root
+DB_PASSWORD=
 
----
+STRIPE_KEY=your_stripe_publishable_key
+STRIPE_SECRET=your_stripe_secret_key
+```
 
-## 🛠️ Tech Stack
+## Run Project
 
-- Laravel (PHP Framework)  
-- MySQL  
-- Stripe API  
-- REST APIs  
-- Blade / API-ready architecture  
+```bash
+php artisan migrate
+php artisan serve
+```
 
----
+## GitHub Description
 
-## 📁 Project Structure
+Full-stack Laravel SaaS project with client management, invoices, Stripe payments, REST APIs, MySQL database, and dashboard-ready architecture.
+
+## Resume Bullet
+
+Developed a full-stack Laravel SaaS application with client management, invoice processing, REST APIs, MySQL database design, and Stripe payment integration.

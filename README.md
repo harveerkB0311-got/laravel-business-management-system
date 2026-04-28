@@ -50,6 +50,3 @@ php artisan serve
 
 Full-stack Laravel SaaS project with client management, invoices, Stripe payments, REST APIs, MySQL database, and dashboard-ready architecture.
 
-## Resume Bullet
-
-Developed a full-stack Laravel SaaS application with client management, invoice processing, REST APIs, MySQL database design, and Stripe payment integration.
